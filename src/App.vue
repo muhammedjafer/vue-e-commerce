@@ -6,6 +6,17 @@ import { RouterView } from 'vue-router';
 </script>
 
 <template>
-  <Navbar />
-  <RouterView />
+  <div class="background-div">
+    <Navbar />
+    <RouterView />
+  </div>
 </template>
+
+<style scoped>
+.background-div {
+    background-image: url('@/assets/images/imge_background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+</style>

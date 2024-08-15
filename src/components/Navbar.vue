@@ -7,7 +7,7 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
 </script>
 
 <template>
-    <div class="flex justify-center items-center mt-3 gap-32">
+    <div class="flex justify-center items-center mt-3" style="gap: 32rem;">
         <div class="flex gap-8">
             <div class="flex items-center gap-1 text-gray-500">
                 <InstagramIcon />
@@ -31,12 +31,12 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
             </div>
         </div>
     </div>
-    <div class="border-y border-gray-300 mt-3 flex justify-center items-center pt-4" style="gap: 7.5rem;">
+    <div class="border-y border-gray-400 mt-3 flex justify-center items-center pt-4" style="gap: 7.5rem;">
         <div>
             <img :src="logo" alt="logo ecommerce" />
         </div>
-        <div class="relative flex border rounded-sm border-gray-300">
-            <input type="text" id="search_ecommerce" class="bg-gray-50 outline-none p-2 rounded-sm indent-8 w-64 placeholder-gray-500 focus:ring-0 border-0" placeholder="Search..." />
+        <div class="relative flex border rounded-sm border-gray-200" style="width: 48rem;">
+            <input type="text" id="search_ecommerce" class="bg-gray-50 outline-none p-2 rounded-sm indent-8 placeholder-gray-500 focus:ring-0 border-0" placeholder="Search..." style="width: 63rem;"/>
             <div class="absolute top-3 left-3 font-semibold">
                 <SearchIcon />
             </div>
@@ -68,10 +68,10 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center" style="gap: 26rem;">
-        <div class="relative">
+    <div class="flex justify-center items-center" style="gap: 36rem;">
+        <div class="relative text-xl">
             <select class="bg-transparent border-0 outline-none text-gray-500 h-10">
-                <option value="" disabled selected>All category</option>
+                <option value="" disabled selected>All Category</option>
                 <option value="category1">Category 1</option>
                 <option value="category2">Category 2</option>
                 <option value="category3">Category 3</option>
@@ -80,12 +80,12 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
                 <ArrowDownIcon />
             </div>
         </div>
-        <div class="flex gap-4 justify-center items-center text-gray-500">
+        <div class="flex gap-8 justify-center items-center text-gray-500  text-xl">
             <div>
                HOME
             </div>
             <div class="relative">
-                <select class="bg-transparent border-0 outline-none text-gray-500 h-10 w-16">
+                <select class="bg-transparent border-0 outline-none text-gray-500 h-10 w-20">
                     <option value="" disabled selected>SHOP</option>
                     <option value="category1">Category 1</option>
                     <option value="category2">Category 2</option>
