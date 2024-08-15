@@ -4,6 +4,8 @@ import the_girl from '@/assets/images/knotted1-600x900.png';
 import HomeDealsCard from '@/components/HomeDealsCard.vue';
 import backgroundIMageUrl from '@/assets/images/imge_background.png';
 import MiddleLandingPage from '@/components/MiddleLandingPage.vue';
+import MiddleLandingPageSecond from '@/components/MiddleLandingPageSecond.vue';
+import PopularPicks from '@/components/PopularPicks.vue';
 </script>
 
 <template>
@@ -29,4 +31,8 @@ import MiddleLandingPage from '@/components/MiddleLandingPage.vue';
     <div>
         <MiddleLandingPage />
     </div>
+    <div>
+        <MiddleLandingPageSecond />
+    </div>
+    <PopularPicks />
 </template>
