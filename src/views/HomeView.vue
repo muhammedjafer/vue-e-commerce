@@ -6,18 +6,20 @@ import backgroundIMageUrl from '@/assets/images/imge_background.png';
 import MiddleLandingPage from '@/components/MiddleLandingPage.vue';
 import MiddleLandingPageSecond from '@/components/MiddleLandingPageSecond.vue';
 import PopularPicks from '@/components/PopularPicks.vue';
+import ReflectedSection from '@/components/ReflectedSection.vue';
+import ShopNow from '@/components/ShopNow.vue';
+import ProductCategory from '@/components/ProductCategory.vue';
+import BrandSection from '@/components/BrandSection.vue';
 </script>
 
 <template>
-    <div class="flex justify-center mt-48 gap-32 bg-cover bg-center">
+    <div class="flex justify-center mt-48 gap-6 bg-cover bg-center">
         <div class="flex items-left flex-col mt-8 gap-6">
             <span class="text-7xl font-bold"> BIBENDUM SODA </span>
             <span class="text-7xl font-bold"> LES MAURIS </span>
             <span class="text-gray-500 text-4xl mt-4">Nunc Scelerisque Tincidunt Elit Vestibulum </span>
             <div class="flex items-center relative ml-2 mt-4">
-                <h4 class="underline z-10 text-5xl me-2">Shop Now</h4>
-                <i class="fa-solid fa-arrow-right-long fa-xl"></i>
-                <div class="w-16 bg-[#FE8080] absolute -left-3 -top-2" style="height: 4.5rem;"></div>
+                <ShopNow />
             </div>
         </div>
         <div class="relative left-28">
@@ -35,4 +37,7 @@ import PopularPicks from '@/components/PopularPicks.vue';
         <MiddleLandingPageSecond />
     </div>
     <PopularPicks />
+    <ReflectedSection />
+    <ProductCategory />
+    <BrandSection />
 </template>

@@ -5,10 +5,11 @@ import second_image from "@/assets/images/middle_landing_page_two/second.png";
 import third_image from "@/assets/images/middle_landing_page_two/third.png";
 import forth_image from "@/assets/images/middle_landing_page_two/forth.png";
 import fifth_image from "@/assets/images/middle_landing_page_two/fifth.png";
+import ShopNow from "./ShopNow.vue";
 </script>
 
 <template>
-    <div class="grid grid-rows-2 grid-flow-col gap-6 justify-center items-center py-32">
+    <div class="grid grid-rows-2 grid-flow-col gap-6 justify-center items-center py-32 mr-3">
         <div class="row-span-1 relative">
             <img :src="first_image" alt="" style="width: 450px; height: 245px" />
             <span class="absolute bottom-6 left-8 text-3xl font-semibold">MODERN</span>
@@ -27,8 +28,7 @@ import fifth_image from "@/assets/images/middle_landing_page_two/fifth.png";
                 <span class="text-3xl text-white font-semibold">All Modern Collections</span>
 
                 <div class="flex items-center relative ml-2 mt-80">
-                    <h4 class="underline z-10 text-white text-5xl me-2">Shop Now</h4>
-                    <div class="w-16 bg-[#FE8080] absolute -left-3 -top-2" style="height: 4.5rem"></div>
+                    <ShopNow font-size="text-5xl" :arrow="false" text-color="text-white" />
                 </div>
             </div>
         </div>

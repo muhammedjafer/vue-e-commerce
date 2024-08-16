@@ -7,7 +7,7 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
 </script>
 
 <template>
-    <div class="flex justify-center items-center mt-3" style="gap: 32rem;">
+    <div class="flex justify-center items-center mt-3" style="gap: 27rem;">
         <div class="flex gap-8">
             <div class="flex items-center gap-1 text-gray-500">
                 <InstagramIcon />
@@ -31,7 +31,7 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
             </div>
         </div>
     </div>
-    <div class="border-y border-gray-400 mt-3 flex justify-center items-center pt-4" style="gap: 7.5rem;">
+    <div class="border-y border-gray-400 mt-3 flex justify-center items-center pt-4" style="gap: 6.5rem;">
         <div>
             <img :src="logo" alt="logo ecommerce" />
         </div>
@@ -40,7 +40,7 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
             <div class="absolute top-3 left-3 font-semibold">
                 <SearchIcon />
             </div>
-            <div class="h-9 w-px bg-gray-400 absolute top-0.5 z-10" style="right: 8.5rem;"></div>
+            <div class="h-9 w-px bg-gray-400 absolute top-0.5 z-10" style="right: 9.5rem;"></div>
             <div class="relative">
                 <select class="bg-gray-50 border-0 outline-none text-gray-500 h-10">
                     <option value="" disabled selected>Select category</option>
@@ -68,7 +68,7 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center" style="gap: 36rem;">
+    <div class="flex justify-center items-center" style="gap: 34rem;">
         <div class="relative text-xl">
             <select class="bg-transparent border-0 outline-none text-gray-500 h-10">
                 <option value="" disabled selected>All Category</option>
