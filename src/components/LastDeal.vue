@@ -64,7 +64,7 @@ const getStarIcons = (rate) => {
                             <span class="text-black text-xl">Offer end in:</span>
                             <div class="flex items-center gap-2 my-2">
                                 <div v-for="index in 4" :key="index" class="flex items-center gap-2">
-                                    <div class="w-10 h-11 bg-gray-200 text-center flex justify-center items-center text-xl">00</div>
+                                    <div class="w-10 h-11 bg-gray-200 text-center flex justify-center items-center text-xl">10</div>
                                     <p v-if="index < 4">:</p>
                                 </div>
                             </div>

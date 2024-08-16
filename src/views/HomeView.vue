@@ -2,7 +2,6 @@
 import landing_page_of_girl from '@/assets/images/landing_page_of_girl.png';
 import the_girl from '@/assets/images/knotted1-600x900.png';
 import HomeDealsCard from '@/components/HomeDealsCard.vue';
-import backgroundIMageUrl from '@/assets/images/imge_background.png';
 import MiddleLandingPage from '@/components/MiddleLandingPage.vue';
 import MiddleLandingPageSecond from '@/components/MiddleLandingPageSecond.vue';
 import PopularPicks from '@/components/PopularPicks.vue';
@@ -11,6 +10,8 @@ import ShopNow from '@/components/ShopNow.vue';
 import ProductCategory from '@/components/ProductCategory.vue';
 import BrandSection from '@/components/BrandSection.vue';
 import LastDeal from '@/components/LastDeal.vue';
+import FlashSale from '@/components/FlashSale.vue';
+import Services from '@/components/Services.vue';
 </script>
 
 <template>
@@ -42,4 +43,6 @@ import LastDeal from '@/components/LastDeal.vue';
     <ProductCategory />
     <BrandSection />
     <LastDeal />
+    <FlashSale />
+    <Services />
 </template>

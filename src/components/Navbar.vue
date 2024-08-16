@@ -7,7 +7,7 @@ import SearchIcon from "./svg_icons/SearchIcon.vue";
 </script>
 
 <template>
-    <div class="flex justify-center items-center mt-3" style="gap: 27rem;">
+    <div class="flex justify-center items-center pt-4" style="gap: 27rem;">
         <div class="flex gap-8">
             <div class="flex items-center gap-1 text-gray-500">
                 <InstagramIcon />
