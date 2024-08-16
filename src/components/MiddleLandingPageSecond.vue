@@ -1,5 +1,4 @@
 <script setup>
-import the_girl from "@/assets/images/the-girl.png";
 import first_image from "@/assets/images/middle_landing_page_two/first.png";
 import second_image from "@/assets/images/middle_landing_page_two/second.png";
 import third_image from "@/assets/images/middle_landing_page_two/third.png";

@@ -1,6 +1,5 @@
 <script setup>
 import { ref, onMounted, computed } from "vue";
-import the_girl from "@/assets/images/the-girl.png";
 import ProductList from "./ProductList.vue";
 import HeaderSection from "./HeaderSection.vue";
 

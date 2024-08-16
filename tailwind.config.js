@@ -6,6 +6,11 @@ module.exports = {
       fontFamily: {
         segoe: ['Poppins', 'sans-serif'],
       },
+      fontSize: {
+        '6.5xl':['4rem', {
+          lineHeight: '1',
+        }],
+      },
     },
   },
   variants: {

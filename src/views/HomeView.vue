@@ -10,6 +10,7 @@ import ReflectedSection from '@/components/ReflectedSection.vue';
 import ShopNow from '@/components/ShopNow.vue';
 import ProductCategory from '@/components/ProductCategory.vue';
 import BrandSection from '@/components/BrandSection.vue';
+import LastDeal from '@/components/LastDeal.vue';
 </script>
 
 <template>
@@ -40,4 +41,5 @@ import BrandSection from '@/components/BrandSection.vue';
     <ReflectedSection />
     <ProductCategory />
     <BrandSection />
+    <LastDeal />
 </template>
