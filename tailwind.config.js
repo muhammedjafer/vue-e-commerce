@@ -17,6 +17,12 @@ module.exports = {
             maxWidth: {
                 "68": "17rem",
             },
+            width: {
+                "17": "4.25rem",
+            },
+            padding: {
+                "68": "17rem",
+            },
         },
     },
     variants: {

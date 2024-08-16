@@ -8,7 +8,7 @@ const props = defineProps({
     },
     position: {
         type: String,
-        default: "absolute -left-1 -top-2",
+        default: "absolute -left-3 -top-2",
     },
     textColor: {
         type: String,
@@ -28,5 +28,5 @@ const props = defineProps({
 <template>
     <h4 :class="`underline z-10 ${fontSize} ${textColor} me-2`">Shop Now</h4>
     <img v-if="arrow" :src="right_arrow" :class="`${imgStyle}`" alt="the right arrow" style="width: 37px; height: 19px;">
-    <div :class="`w-16 bg-[#FE8080] ${position}`" style="height: 4.5rem"></div>
+    <div :class="`w-17 bg-[#FE8080] ${position}`" style="height: 4.5rem"></div>
 </template>
