@@ -1,6 +1,7 @@
 <script setup>
 import share_card from "@/assets/images/share_card.png";
 import icon_heard from "@/assets/images/Icon-heart.png";
+import { RouterLink } from "vue-router";
 
 const props = defineProps({
     width: String,
@@ -25,7 +26,9 @@ const truncateTitle = (title) => {
 </script>
 
 <template>
-    <img :src="product.image" alt="the girl test" class="block h-full border border-gray-200 rounded-sm" :style="{ width: width, height: height }"  />
+    <RouterLink :to="'/product-details/' + product.id">
+        <img :src="product.image" alt="the girl test" class="block h-full border border-gray-200 rounded-sm" :style="{ width: width, height: height }"  />
+    </RouterLink>
     <div class="flex justify-between items-center text-black text-xl font-bold">
         <div>
             {{ truncateTitle(product.title) }}

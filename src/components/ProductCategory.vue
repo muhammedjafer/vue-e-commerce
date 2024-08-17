@@ -42,7 +42,9 @@ const truncateTitle = (title) => {
             <div v-for="product in products" :key="product.id" class="row-span-1 justify-items-center mt-5" style="width: 304px;">
                 <div class="flex gap-6">
                     <div class="border border-gray-200">
-                        <img :src="product.image" class="object-contain" :alt="product.title" style="width: 110px; height: 144px;">
+                        <RouterLink :to="'/product-details/' + product.id">
+                            <img :src="product.image" class="object-contain" :alt="product.title" style="width: 110px; height: 144px;">
+                        </RouterLink>
                     </div>
                     <div class="flex flex-col justify-start items-start" style="gap: 15px;">
                         <span class="text-xl text-left font-semibold">{{ truncateTitle(product.title) }}</span>

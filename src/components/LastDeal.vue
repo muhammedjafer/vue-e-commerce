@@ -44,7 +44,9 @@ const getStarIcons = (rate) => {
             <div v-for="product in products">
                 <div class="border border-gray-200 p-6 flex gap-4" style="width: 664px; height: 423px">
                     <div class="relative">
-                        <img :src="product.image" alt="product image" class="object-contain border border-gray-200" style="width: 252px; height: 381px" />
+                        <RouterLink :to="'/product-details/' + product.id">
+                            <img :src="product.image" alt="product image" class="object-contain border border-gray-200" style="width: 252px; height: 381px" />
+                        </RouterLink>
                         <div class="absolute top-4 left-4 w-12 h-6 text-gray-500 bg-white border border-gray-200 text-center">26%</div>
                     </div>
                     <div class="flex flex-col items-start justify-start">

@@ -23,6 +23,12 @@ module.exports = {
             padding: {
                 "68": "17rem",
             },
+            margin: {
+                "26": "6.5rem",
+            },
+            right: {
+                "68": "17rem",
+            },
         },
     },
     variants: {

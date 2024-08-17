@@ -21,7 +21,9 @@ onMounted(async () => {
         </div>
         <div class="z-50 flex flex-row gap-4 mt-6 me-12">
             <div v-for="product in products" :key="product.id" class="bg-gray-100 relative" style="width: 331px; height: 391px;">
-                <img :src="product.image" alt="the girl test" class="h-full w-full border border-gray-200 rounded-sm">
+                <RouterLink :to="'/product-details/' + product.id">
+                    <img :src="product.image" alt="the girl test" class="h-full w-full border border-gray-200 rounded-sm">
+                </RouterLink>
                 <div class="absolute flex justify-between bottom-0 bg-black
                 bg-opacity-40 py-2 px-4 w-full text-center font-semibold">
                     <div class="text-white flex items-center">
